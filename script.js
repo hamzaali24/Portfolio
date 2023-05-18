@@ -82,13 +82,13 @@ const headerLogoConatiner = document.querySelector(
 );
 
 headerLogoConatiner.addEventListener("click", () => {
-  location.href = "index.html";
+  location.href = "./";
 });
 
 const toProjects = document.getElementById("ToProjects");
 
 toProjects.addEventListener("click", () => {
-  location.href = "index.html#projects";
+  location.href = "#projects";
 });
 
 const toContact = document.getElementById("ToContact");
