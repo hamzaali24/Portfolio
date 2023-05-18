@@ -6,8 +6,18 @@
 }
 
 :root {
-  --themeColor: 184, 89, 54;
   /* Theme Color in (R,G,B) format */
+  /* Apricot */
+  /* --themeColor: 184, 89, 54; */
+  /* Green */
+  /* --themeColor:  0, 200, 83; */
+  /* Blue */
+  /* --themeColor: 0, 123, 255; */
+  /* Red */
+  /* --themeColor: 255, 23, 68; */
+  /* Darkish Blue */
+  --themeColor: 0, 119, 181;
+
 }
 
 html {
@@ -35,13 +45,6 @@ html {
     font-size: 56%;
   }
 }
-
-/* 112.5em === 1600px */
-/* @media (min-width: 112.5em) {
-  html {
-    font-size: 65%;
-  }
-} */
 
 body {
   font-family: "PT Sans", sans-serif;
@@ -317,28 +320,6 @@ a {
   padding: 3rem;
   color: #555;
 }
-
-/* @keyframes smMenuLinkStartAnimation {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes smMenuLinkEndAnimation {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-} */
 
 .main-header__sm-scr-nav-btn-line:first-child {
   margin-bottom: 8px;
@@ -705,6 +686,10 @@ a {
   }
 }
 
+#fade_button{
+  opacity: 0.5;
+}
+
 /* Contact */
 
 .contact {
@@ -855,7 +840,7 @@ a {
   content: "";
   position: absolute;
   z-index: 20;
-  background: rgba(var(--themeColor), 0.5);
+  /* background: rgba(var(--themeColor), 0.5); */
   width: 100%;
   height: 100%;
   top: 0;
