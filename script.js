@@ -94,7 +94,7 @@ toProjects.addEventListener("click", () => {
 const toContact = document.getElementById("ToContact");
 
 toContact.addEventListener("click", () => {
-  location.href = "index.html#contact";
+  location.href = "#contact";
 });
 
 // function downloadResume() {
