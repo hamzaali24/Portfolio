@@ -686,14 +686,14 @@ a {
   }
 }
 
-#fade_button{
+#fade_button {
   opacity: 0.5;
 }
 
 /* Contact */
 
 .contact {
-  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./assets/bg.jpg);
+  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url(./assets/bg.jpg);
   background-size: cover;
   background-position: center;
 }
